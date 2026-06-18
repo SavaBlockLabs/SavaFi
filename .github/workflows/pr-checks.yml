@@ -29,6 +29,8 @@ jobs:
 
   pr-size-check:
     runs-on: ubuntu-latest
+    permissions:
+      pull-requests: write
     steps:
       - name: Add size labels
         uses: actions/github-script@v7

@@ -35,3 +35,10 @@ lerna-debug.log*
 
 # Turbo
 .turbo/
+
+# Expo
+.expo/
+
+# TypeScript build info
+tsconfig.tsbuildinfo
+*.tsbuildinfo
