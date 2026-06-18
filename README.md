@@ -72,6 +72,7 @@ Yield Generation
 
 | Layer            | Technology                     |
 | ---------------- | ------------------------------ |
+| Frontend         | Next.js, React, TypeScript     |
 | Mobile           | React Native, Expo, TypeScript |
 | Backend          | Express.js, TypeScript         |
 | Blockchain       | Stellar SDK, Horizon APIs      |
@@ -90,9 +91,9 @@ Yield Generation
 ```text
 savafi/
 ├── apps/
-│   ├── api/                 # Express.js backend API
-│   ├── mobile/              # React Native mobile application
-│   └── admin/               # Internal operations dashboard
+│   ├── backend/             # Express.js backend API
+│   ├── frontend/            # Next.js web application
+│   └── mobile/              # React Native mobile application
 │
 ├── packages/
 │   ├── database/            # Database schemas and migrations
@@ -172,6 +173,77 @@ Start development:
 ```bash
 npm run dev
 ```
+
+---
+
+## Frontend Development
+
+The frontend is built with Next.js, React, and TypeScript.
+
+### Setup
+
+```bash
+cd apps/frontend
+npm install
+```
+
+### Running the App
+
+```bash
+# Start development server
+npm run dev
+
+# Build for production
+npm run build
+
+# Start production server
+npm start
+```
+
+### Tech Stack
+
+| Component    | Technology      |
+| ------------ | --------------- |
+| Framework    | Next.js 16      |
+| UI           | React 18        |
+| Language     | TypeScript      |
+| Styling      | Tailwind CSS    |
+| Build Target | Web Application |
+
+---
+
+## Backend Development
+
+The backend is built with Express.js and TypeScript.
+
+### Setup
+
+```bash
+cd apps/backend
+npm install
+```
+
+### Running the App
+
+```bash
+# Start development server
+npm run dev
+
+# Build for production
+npm run build
+
+# Start production server
+npm start
+```
+
+### Tech Stack
+
+| Component    | Technology   |
+| ------------ | ------------ |
+| Framework    | Express.js   |
+| Language     | TypeScript   |
+| Security     | Helmet, CORS |
+| Build Target | REST API     |
 
 ---
 
@@ -262,6 +334,20 @@ The project uses:
 - lint-staged
 - Commitlint
 - TypeScript
+
+### Code Review with Coderabbit AI
+
+This project uses Coderabbit AI for automated code review on pull requests. Coderabbit helps maintain code quality by:
+
+- Following GitHub issue requirements exactly
+- Prioritizing correctness over style
+- Ignoring formatting handled by ESLint, Prettier, or lint-staged
+- Flagging undocumented breaking changes
+- Verifying tests cover acceptance criteria
+- Suggesting improvements only for correctness, security, or maintainability
+- Prioritizing security over gas optimizations for smart contracts
+
+Review instructions are configured in `.github/coderabbit/repository_instructions.md`.
 
 ### Commit Convention
 
@@ -436,18 +522,17 @@ Open a GitHub Issue or start a GitHub Discussion.
 
 ## Acknowledgements
 
-- Stellar Development Foundation
-- Blend Protocol
-- Privy
-- Mercuryo
+- [Stellar Development Foundation](https://stellar.org)
+- [Blend Protocol](https://blend.capital)
+- [Privy](https://privy.io)
+- [Mercuryo](https://mercuryo.io)
 - The Open Source Community
 
 ---
 
 ## Links
 
-- Documentation
-- Whitepaper
-- Compliance Policies
-- Architecture Documentation
-- GitHub Organization
+- [Documentation](https://prickle-kryptops-023.notion.site/SavaFi-Documentation-382b31338d4c80a0949fc7668d07577a?source=copy_link)
+- [Whitepaper](https://prickle-kryptops-023.notion.site/SavaFi-Whitepaper-382b31338d4c8016b844dde973ef84ff?source=copy_link)
+- [Compliance Policies](https://prickle-kryptops-023.notion.site/SavaFi-Compliance-Policy-382b31338d4c80b3b6a0cc0ce590709f?source=copy_link)
+- [GitHub Repository](https://github.com/SavaBlockLabs/SavaFi)
