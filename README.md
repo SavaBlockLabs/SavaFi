@@ -7,6 +7,11 @@ Stablecoin Saving Platform.
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.3-blue)](https://www.typescriptlang.org/)
 [![Stellar](https://img.shields.io/badge/Built%20on-Stellar-black)](https://stellar.org)
 
+<img src="./assets/Screenshot0.png" alt="Screenshot 0" width="300" style="display: block; margin: 20px 0;">
+<img src="./assets/Screenshot1.png" alt="Screenshot 1" width="300" style="display: block; margin: 20px 0;">
+<img src="./assets/Screenshot2.png" alt="Screenshot 2" width="300" style="display: block; margin: 20px 0;">
+<img src="./assets/Screenshot3.png" alt="Screenshot 3" width="300" style="display: block; margin: 20px 0;">
+
 ## Overview
 
 SavaFi is a Stellar-powered stablecoin savings platform designed to help Africans preserve and grow their wealth using digital dollars.
